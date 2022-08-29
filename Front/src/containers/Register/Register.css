@@ -1,0 +1,40 @@
+.Register {
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label {
+    display: block;
+    margin: 15px auto;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+}
+.error{
+    color: #ce0303;
+}
+input {
+    border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.log {
+    color: #d17a07;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #d17a07;
+    width: 150px;
+    border-radius: 4px;
+  }
+  
+  .log:hover {
+    color: white;
+    box-shadow: 0 0 20px #d17a07;
+    background-color: #d17a07;
+  }
